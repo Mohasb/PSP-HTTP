@@ -1,0 +1,470 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "HotelPereMariaApi2",
+    "dateExported": "2024-02-19T14:54:55.589Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "5f188b54-f7b0-4cba-918d-7e74cf1ff27d",
+            "name": "Resenyas",
+            "containerId": "",
+            "created": "2024-02-12T20:05:32.554Z",
+            "sortNum": 2500
+        },
+        {
+            "_id": "cd35a6c8-e291-481d-befb-497863cab78b",
+            "name": "DELETE",
+            "containerId": "5f188b54-f7b0-4cba-918d-7e74cf1ff27d",
+            "created": "2024-02-12T20:05:32.562Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "2384d8ba-ce42-4636-ae7a-89f186fec06c",
+            "name": "GET",
+            "containerId": "5f188b54-f7b0-4cba-918d-7e74cf1ff27d",
+            "created": "2024-02-12T20:05:32.555Z",
+            "sortNum": 220000
+        },
+        {
+            "_id": "6111b3fd-d7a3-4afe-b9c3-b9f3ae097947",
+            "name": "GET:EMAIL",
+            "containerId": "5f188b54-f7b0-4cba-918d-7e74cf1ff27d",
+            "created": "2024-02-12T20:05:32.556Z",
+            "sortNum": 230000
+        },
+        {
+            "_id": "cfd5b13d-8c10-4672-a48a-33ddc34a58af",
+            "name": "POST",
+            "containerId": "5f188b54-f7b0-4cba-918d-7e74cf1ff27d",
+            "created": "2024-02-12T20:05:32.557Z",
+            "sortNum": 240000
+        },
+        {
+            "_id": "beb8e87f-5b0d-4552-8a7b-2b9a37ba5a7b",
+            "name": "PATCH",
+            "containerId": "5f188b54-f7b0-4cba-918d-7e74cf1ff27d",
+            "created": "2024-02-12T20:05:32.558Z",
+            "sortNum": 250000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "7877d05f-5306-41ea-9a09-c8b8777ea70d",
+            "colId": "6212fb66-5c9d-47ab-9347-95a7bb71d66a",
+            "containerId": "cd35a6c8-e291-481d-befb-497863cab78b",
+            "name": "Admin borrando una reseña por id",
+            "url": "https://localhost/api/rates/{reviewId}",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2024-02-12T20:05:32.570Z",
+            "modified": "2024-02-18T21:37:44.944Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hcmlhQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODI5MDc5MH0.SulpjLAG3zufbGxxlI-GtzJbwfUAFbS73Hc3kyLP5N8"
+                }
+            ],
+            "params": [
+                {
+                    "name": "reviewId",
+                    "value": "65c7852029e34a1ef183b1d1",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "f7e8266d-67a9-4884-b3fe-2288b3ae63c9",
+            "colId": "6212fb66-5c9d-47ab-9347-95a7bb71d66a",
+            "containerId": "cd35a6c8-e291-481d-befb-497863cab78b",
+            "name": "User borrando una reseña suya",
+            "url": "https://localhost/api/rates/{reviewId}",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2024-02-12T20:05:32.572Z",
+            "modified": "2024-02-18T21:35:59.574Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODI5MTU5OH0.ZYPGt7xCXeXdykF8GvseUE74Sr7Y97fzLzSTnuSfKOQ"
+                }
+            ],
+            "params": [
+                {
+                    "name": "reviewId",
+                    "value": "65cba7b950b4615e610ceaa4",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "a116487c-deb3-4554-a04a-37f216026cac",
+            "colId": "6212fb66-5c9d-47ab-9347-95a7bb71d66a",
+            "containerId": "cd35a6c8-e291-481d-befb-497863cab78b",
+            "name": "User borrando una reseña de otro",
+            "url": "https://localhost/api/rates/{reviewId}",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-02-12T20:05:32.573Z",
+            "modified": "2024-02-12T20:05:32.573Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwNzU3NTMyMiwiZXhwIjoxNzA3NTgyNTIyfQ.owkJ5BfEvST4ZEsDjTqFU1hbWzaZaoe1bQl1cSWaqlA"
+                }
+            ],
+            "params": [
+                {
+                    "name": "reviewId",
+                    "value": "659597f11c41b954d27f3503",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "6b049659-c89f-4488-ba5a-a4934fc5c8cd",
+            "colId": "6212fb66-5c9d-47ab-9347-95a7bb71d66a",
+            "containerId": "2384d8ba-ce42-4636-ae7a-89f186fec06c",
+            "name": "Admin obteniendo todas las resenyas",
+            "url": "https://localhost/api/rates/reviewsByDate",
+            "method": "GET",
+            "sortNum": 205000,
+            "created": "2024-02-12T20:05:32.554Z",
+            "modified": "2024-02-18T20:18:26.844Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hcmlhQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODI4NzQ5Mn0.-x6BJDDXc7jHYVyvxIRPyFOstXx7QYEMiS3TDOYi1Yg"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d06b4c3e-a082-490e-921e-0b7f6f4caff7",
+            "colId": "6212fb66-5c9d-47ab-9347-95a7bb71d66a",
+            "containerId": "2384d8ba-ce42-4636-ae7a-89f186fec06c",
+            "name": "User obteniendo todas las resenyas",
+            "url": "https://localhost/api/rates",
+            "method": "GET",
+            "sortNum": 215000,
+            "created": "2024-02-12T20:05:32.555Z",
+            "modified": "2024-02-13T17:30:17.874Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsInVzZXIiOnsiX2lkIjoiNjViY2Q5N2FlMmU2YTY5NDU2NzMyYzI3IiwibmFtZSI6Ik51ZXZvIiwidXNlcl9uYW1lIjoibnVldm8iLCJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJwYXNzd29yZCI6IiQyYiQxMCRxdExxbi45am8vOGF3eTVITVNBM0JPOHNFWFNjbWcxMzYvNXpJM3ZPUzh5RlU3UHVLWDlpVyIsInJvbGUiOiJ1c2VyIiwicmVzZXJ2YXRpb25zIjpbXX0sImlhdCI6MTcwNzg0NTQwNywiZXhwIjoxNzA3ODc0MjA3fQ.dAPvj9KFw87bRN_Qdth-Qj3J-pK0Net728SpcUBvmyw"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a3b9daf0-8635-4ee5-82b7-4974d90eb538",
+            "colId": "6212fb66-5c9d-47ab-9347-95a7bb71d66a",
+            "containerId": "6111b3fd-d7a3-4afe-b9c3-b9f3ae097947",
+            "name": "Admin obteniendo las resenyas de 1 user",
+            "url": "https://localhost/api/rates/{email}",
+            "method": "GET",
+            "sortNum": 215000,
+            "created": "2024-02-12T20:05:32.556Z",
+            "modified": "2024-02-18T20:37:20.438Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hcmlhQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODI4NzQ5Mn0.-x6BJDDXc7jHYVyvxIRPyFOstXx7QYEMiS3TDOYi1Yg"
+                }
+            ],
+            "params": [
+                {
+                    "name": "email",
+                    "value": "user@example.com",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "1d7715dd-c938-4558-926e-a906b0469359",
+            "colId": "6212fb66-5c9d-47ab-9347-95a7bb71d66a",
+            "containerId": "6111b3fd-d7a3-4afe-b9c3-b9f3ae097947",
+            "name": "User obteniendo sus reseñas",
+            "url": "https://localhost/api/rates/{email}",
+            "method": "GET",
+            "sortNum": 225000,
+            "created": "2024-02-12T20:05:32.557Z",
+            "modified": "2024-02-18T20:40:20.111Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODI4NjA3NH0.VyVeuyNmlDl-clsmJfiq77xFaerIWRVFnQ8UpRPdqwg"
+                }
+            ],
+            "params": [
+                {
+                    "name": "email",
+                    "value": "correo1@example.com",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "0df017e3-5174-4cdb-8e29-6535eef0ad3e",
+            "colId": "6212fb66-5c9d-47ab-9347-95a7bb71d66a",
+            "containerId": "6111b3fd-d7a3-4afe-b9c3-b9f3ae097947",
+            "name": "User obteniendo sus reseñas de otro user",
+            "url": "https://localhost/api/rates/{email}",
+            "method": "GET",
+            "sortNum": 235000,
+            "created": "2024-02-12T20:05:32.558Z",
+            "modified": "2024-02-18T20:43:25.405Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODI4ODk5Nn0.E26OVNGldqNJ0FoCTFUeUuaTWrd7E0isRkZYDaipEZ8"
+                }
+            ],
+            "params": [
+                {
+                    "name": "email",
+                    "value": "user@example.com",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "02fbfe83-f98d-4dea-9784-1e91784a74f8",
+            "colId": "6212fb66-5c9d-47ab-9347-95a7bb71d66a",
+            "containerId": "cfd5b13d-8c10-4672-a48a-33ddc34a58af",
+            "name": "Admin añadiendo reseña",
+            "url": "https://localhost/api/rates",
+            "method": "POST",
+            "sortNum": 235000,
+            "created": "2024-02-12T20:05:32.559Z",
+            "modified": "2024-02-18T21:10:09.278Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hcmlhQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODI4NzQ5Mn0.-x6BJDDXc7jHYVyvxIRPyFOstXx7QYEMiS3TDOYi1Yg"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user\": {\n    \"email\": \"maria@gmail.com\",\n    \"name\": \"Maria\"\n  },\n  \"rating\": 5,\n  \"comment\": \"Una excelente experiencia en la habitación.\",\n  \"room_type\": \"\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1c61b406-f445-4bac-a13e-0d59538c3c8f",
+            "colId": "6212fb66-5c9d-47ab-9347-95a7bb71d66a",
+            "containerId": "cfd5b13d-8c10-4672-a48a-33ddc34a58af",
+            "name": "Admin añadiendo resenya user inexistente",
+            "url": "https://localhost/api/rates",
+            "method": "POST",
+            "sortNum": 240000,
+            "created": "2024-02-12T20:05:32.560Z",
+            "modified": "2024-02-18T21:13:32.012Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hcmlhQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODI5MDc5MH0.SulpjLAG3zufbGxxlI-GtzJbwfUAFbS73Hc3kyLP5N8"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user\": {\n    \"email\": \"nonexistentuser@example.com\",\n    \"name\": \"Nombre Usuario\"\n  },\n  \"rating\": 4,\n  \"comment\": \"Una excelente experiencia en la habitación.\",\n  \"room_type\": \"Deluxe\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d6ea14f6-bcf3-491c-ab5a-aabb482562cf",
+            "colId": "6212fb66-5c9d-47ab-9347-95a7bb71d66a",
+            "containerId": "cfd5b13d-8c10-4672-a48a-33ddc34a58af",
+            "name": "User añadiendo resenya",
+            "url": "https://localhost/api/rates",
+            "method": "POST",
+            "sortNum": 250000,
+            "created": "2024-02-12T20:05:32.561Z",
+            "modified": "2024-02-18T21:15:09.658Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODI5MDgzMX0.AlzJRTYx4I1MYuC6dIxiSp67POC2RNSn1VryvYiNYf0"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user\": {\n    \"email\": \"correo1@example.com\",\n    \"name\": \"Nombre Usuario\"\n  },\n  \"rating\": 3,\n  \"comment\": \"Bueno, sin más.\",\n  \"room_type\": \"Deluxe\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "868f601c-8351-4785-883d-6ac465ce61b2",
+            "colId": "6212fb66-5c9d-47ab-9347-95a7bb71d66a",
+            "containerId": "cfd5b13d-8c10-4672-a48a-33ddc34a58af",
+            "name": "User añadiendo resenya en nombre de otro user",
+            "url": "https://localhost/api/rates",
+            "method": "POST",
+            "sortNum": 260000,
+            "created": "2024-02-12T20:05:32.562Z",
+            "modified": "2024-02-18T21:16:03.779Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hcmlhQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODI5MDc5MH0.SulpjLAG3zufbGxxlI-GtzJbwfUAFbS73Hc3kyLP5N8"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user\": {\n    \"email\": \"nonexistentuser@example.com\",\n    \"name\": \"Nombre Usuario\"\n  },\n  \"rating\": 4,\n  \"comment\": \"Una excelente experiencia en la habitación.\",\n  \"room_type\": \"Deluxe\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "93517cfd-735d-4d0f-9d7d-b1683f898898",
+            "colId": "6212fb66-5c9d-47ab-9347-95a7bb71d66a",
+            "containerId": "beb8e87f-5b0d-4552-8a7b-2b9a37ba5a7b",
+            "name": "Admin modificando una reseña por id",
+            "url": "https://localhost/api/rates/{reviewId}",
+            "method": "PATCH",
+            "sortNum": 265000,
+            "created": "2024-02-12T20:05:32.563Z",
+            "modified": "2024-02-18T21:25:13.593Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hcmlhQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODI5MDc5MH0.SulpjLAG3zufbGxxlI-GtzJbwfUAFbS73Hc3kyLP5N8"
+                }
+            ],
+            "params": [
+                {
+                    "name": "reviewId",
+                    "value": "65d25d371d369f510a8e404d",
+                    "isPath": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user\": {\n    \"email\": \"maria@gmail.com\",\n    \"name\": \"Nombre Usuario\"\n  },\n  \"rating\":1,\n  \"comment\": \"Muy mal, muy mal\",\n  \"room_type\": \"Deluxe\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c419d492-f3fc-4df7-a08b-66cb152d5938",
+            "colId": "6212fb66-5c9d-47ab-9347-95a7bb71d66a",
+            "containerId": "beb8e87f-5b0d-4552-8a7b-2b9a37ba5a7b",
+            "name": "User modificando una reseña por id",
+            "url": "https://localhost/api/rates/{reviewId}",
+            "method": "PATCH",
+            "sortNum": 275000,
+            "created": "2024-02-12T20:05:32.564Z",
+            "modified": "2024-02-18T21:26:51.681Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODI5MTU5OH0.ZYPGt7xCXeXdykF8GvseUE74Sr7Y97fzLzSTnuSfKOQ"
+                }
+            ],
+            "params": [
+                {
+                    "name": "reviewId",
+                    "value": "65cba7b950b4615e610ceaa4",
+                    "isPath": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"comment\": \"Excelente\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e687bf92-43e6-4404-a868-e7b0464c6c3e",
+            "colId": "6212fb66-5c9d-47ab-9347-95a7bb71d66a",
+            "containerId": "beb8e87f-5b0d-4552-8a7b-2b9a37ba5a7b",
+            "name": "User modificando una reseña por id Copy",
+            "url": "https://localhost/api/rates/{reviewId}",
+            "method": "PATCH",
+            "sortNum": 285000,
+            "created": "2024-02-12T20:05:32.571Z",
+            "modified": "2024-02-18T21:28:15.120Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODI5MTU5OH0.ZYPGt7xCXeXdykF8GvseUE74Sr7Y97fzLzSTnuSfKOQ"
+                }
+            ],
+            "params": [
+                {
+                    "name": "reviewId",
+                    "value": "65c7852029e34a1ef183b1d1",
+                    "isPath": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user\": {\n    \"email\": \"user@example.com\",\n    \"name\": \"Nombre Usuario\"\n  },\n  \"rating\":1,\n  \"comment\": \"Muy bien\",\n  \"room_type\": \"Deluxe\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "81d9c7ba-6c30-4ed0-989c-dcc891ee4610",
+            "colId": "6212fb66-5c9d-47ab-9347-95a7bb71d66a",
+            "containerId": "2384d8ba-ce42-4636-ae7a-89f186fec06c",
+            "name": "Obtener todas las resenya por ranking",
+            "url": "https://localhost/api/rates/reviewsByRating",
+            "method": "GET",
+            "sortNum": 345000,
+            "created": "2024-02-16T22:50:43.522Z",
+            "modified": "2024-02-18T20:25:17.087Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hcmlhQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsInVzZXIiOnsiX2lkIjoiNjViNDRmMTZhMDJiOTVmNTA4YzU4ZGZlIiwidXNlcl9uYW1lIjoiTWFyaWEiLCJlbWFpbCI6Im1hcmlhQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJhJDEwJFZzQy9RbU15UmdJOGJxdVphMVBGUnVybGQyUGdKRG1qM1VGa2oxNE9kN3BwbjVmUnBhbUJxIiwicm9sZSI6ImFkbWluIiwibmFtZSI6Ik1hcmlhIHByeiIsInBob25lIjo2MTUyMjM1MjgsInJlc2VydmF0aW9ucyI6W119LCJpYXQiOjE3MDc4NDI0MTYsImV4cCI6MTcwNzg3MTIxNn0.VWbC9EmgtjJfCL34fI64Gx0EpXGUKDBytSKxD8EpKfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cfef776a-fe16-499b-9f84-095bc3549fa7",
+            "colId": "6212fb66-5c9d-47ab-9347-95a7bb71d66a",
+            "containerId": "2384d8ba-ce42-4636-ae7a-89f186fec06c",
+            "name": "Obtener ranking de resenyas segun tipo",
+            "url": "https://localhost/api/rates/rankingType/{type}",
+            "method": "GET",
+            "sortNum": 355000,
+            "created": "2024-02-16T23:17:24.853Z",
+            "modified": "2024-02-18T20:52:32.872Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODI4ODk5Nn0.E26OVNGldqNJ0FoCTFUeUuaTWrd7E0isRkZYDaipEZ8"
+                }
+            ],
+            "params": [
+                {
+                    "name": "type",
+                    "value": "Individual",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        }
+    ]
+}

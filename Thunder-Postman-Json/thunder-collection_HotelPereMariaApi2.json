@@ -1,0 +1,744 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "HotelPereMariaApi2",
+    "dateExported": "2024-02-17T14:31:59.791Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "837fa3db-ef72-48d2-912e-2295eb8aec7a",
+            "name": "RESERVAS",
+            "containerId": "",
+            "created": "2024-02-10T14:10:58.067Z",
+            "sortNum": 5000
+        },
+        {
+            "_id": "e98bf11d-eaa5-4613-bcc1-f52c169a2d3c",
+            "name": "HABITACIONES",
+            "containerId": "",
+            "created": "2024-02-17T13:25:04.585Z",
+            "sortNum": 15000
+        },
+        {
+            "_id": "79863839-a245-4578-8806-c10da9501a08",
+            "name": "GET",
+            "containerId": "837fa3db-ef72-48d2-912e-2295eb8aec7a",
+            "created": "2024-02-10T14:10:58.076Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "4d2ac5e5-9ffc-4fa9-af34-863494a77d9b",
+            "name": "GET:EMAIL",
+            "containerId": "837fa3db-ef72-48d2-912e-2295eb8aec7a",
+            "created": "2024-02-10T14:10:58.083Z",
+            "sortNum": 40000
+        },
+        {
+            "_id": "d0be5309-e3b9-4490-bdf4-ff47fd46d69e",
+            "name": "GET",
+            "containerId": "e98bf11d-eaa5-4613-bcc1-f52c169a2d3c",
+            "created": "2024-02-17T13:25:04.594Z",
+            "sortNum": 120000
+        },
+        {
+            "_id": "882d11a8-6a63-4d41-a51b-f5e08013e95c",
+            "name": "GET UNIQUES",
+            "containerId": "e98bf11d-eaa5-4613-bcc1-f52c169a2d3c",
+            "created": "2024-02-17T13:25:04.603Z",
+            "sortNum": 130000
+        },
+        {
+            "_id": "8abef614-5c12-45bb-b50a-2cf6e166b78c",
+            "name": "GET :TYPE",
+            "containerId": "e98bf11d-eaa5-4613-bcc1-f52c169a2d3c",
+            "created": "2024-02-17T13:25:04.611Z",
+            "sortNum": 135000
+        },
+        {
+            "_id": "71dee54c-c6a3-4bbe-a30e-13a82b4321b3",
+            "name": "GET:ROOM_NUMBER",
+            "containerId": "e98bf11d-eaa5-4613-bcc1-f52c169a2d3c",
+            "created": "2024-02-17T13:25:04.619Z",
+            "sortNum": 137500
+        },
+        {
+            "_id": "675148a8-c627-42d9-bcec-8c289ee2b1a6",
+            "name": "POST",
+            "containerId": "e98bf11d-eaa5-4613-bcc1-f52c169a2d3c",
+            "created": "2024-02-17T13:25:04.627Z",
+            "sortNum": 140000
+        },
+        {
+            "_id": "a64bb097-23b5-4562-9286-1d156ffab938",
+            "name": "POST",
+            "containerId": "837fa3db-ef72-48d2-912e-2295eb8aec7a",
+            "created": "2024-02-11T19:19:16.596Z",
+            "sortNum": 150000
+        },
+        {
+            "_id": "7a14ca4d-b0d3-483d-8af3-686ea9a7ad2f",
+            "name": "PATCH",
+            "containerId": "e98bf11d-eaa5-4613-bcc1-f52c169a2d3c",
+            "created": "2024-02-17T13:25:04.636Z",
+            "sortNum": 190000
+        },
+        {
+            "_id": "6e4c8392-5079-4f2d-8da0-9282cf1558d4",
+            "name": "DELETE",
+            "containerId": "e98bf11d-eaa5-4613-bcc1-f52c169a2d3c",
+            "created": "2024-02-17T13:25:04.646Z",
+            "sortNum": 200000
+        },
+        {
+            "_id": "598102ff-ebb6-4862-8d58-feb85cb79ebe",
+            "name": "PATCH",
+            "containerId": "837fa3db-ef72-48d2-912e-2295eb8aec7a",
+            "created": "2024-02-17T13:06:16.453Z",
+            "sortNum": 205000
+        },
+        {
+            "_id": "83b0eaf4-2068-43de-b4d8-92972e60acfa",
+            "name": "DELETE",
+            "containerId": "837fa3db-ef72-48d2-912e-2295eb8aec7a",
+            "created": "2024-02-11T18:55:06.729Z",
+            "sortNum": 260000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "3fd9d287-340e-4e6a-b16c-416aa22ea236",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "79863839-a245-4578-8806-c10da9501a08",
+            "name": "Admin viendo todas las reservas",
+            "url": "https://localhost/api/reservations",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-10T14:10:58.081Z",
+            "modified": "2024-02-17T11:42:02.387Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1oQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODE3MDA4NH0.xZ4E_gjIv78GTB70-Rv_iYwJwxp1ATAVlIjdx0gKxJA"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c62cc202-53ea-4922-9d86-85ec6109ef03",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "4d2ac5e5-9ffc-4fa9-af34-863494a77d9b",
+            "name": "Admin viendo reservas 1 user",
+            "url": "https://localhost/api/reservations/correo1@example.com",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-10T14:10:58.087Z",
+            "modified": "2024-02-17T11:42:57.555Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1oQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODE3MDA4NH0.xZ4E_gjIv78GTB70-Rv_iYwJwxp1ATAVlIjdx0gKxJA"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9c185133-149f-43e3-85f9-5677e1653206",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "d0be5309-e3b9-4490-bdf4-ff47fd46d69e",
+            "name": "Admin obteniendo todas las habitaciones",
+            "url": "https://localhost/api/rooms/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-17T13:25:04.599Z",
+            "modified": "2024-02-17T13:26:13.915Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1oQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODE3MDA4NH0.xZ4E_gjIv78GTB70-Rv_iYwJwxp1ATAVlIjdx0gKxJA"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b376f18c-e2e8-4850-bf64-b3c800a7f109",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "8abef614-5c12-45bb-b50a-2cf6e166b78c",
+            "name": "Admin obtentiendo habitaciones por tipo",
+            "url": "https://localhost/api/rooms/type/{type}",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-17T13:25:04.615Z",
+            "modified": "2024-02-17T13:27:09.238Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1oQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODE3MDA4NH0.xZ4E_gjIv78GTB70-Rv_iYwJwxp1ATAVlIjdx0gKxJA"
+                }
+            ],
+            "params": [
+                {
+                    "name": "type",
+                    "value": "Individual",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "c321dcdf-a635-4257-8d41-5df0902666b2",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "71dee54c-c6a3-4bbe-a30e-13a82b4321b3",
+            "name": "Admin obtentiendo una habitacion por numero hab.",
+            "url": "https://localhost/api/rooms/room/{room_number}",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-17T13:25:04.623Z",
+            "modified": "2024-02-17T13:27:28.251Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1oQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODE3MDA4NH0.xZ4E_gjIv78GTB70-Rv_iYwJwxp1ATAVlIjdx0gKxJA"
+                }
+            ],
+            "params": [
+                {
+                    "name": "room_number",
+                    "value": "101",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "9b2c2f07-24bd-4447-9e37-e136c73d70cd",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "79863839-a245-4578-8806-c10da9501a08",
+            "name": "User viendo todas las reservas (No deberia poder)",
+            "url": "https://localhost/api/reservations",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-10T14:10:58.081Z",
+            "modified": "2024-02-17T11:42:23.403Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODE3MDEyOX0.2vH3RJ4N52b4vHC19zF2AouuWasLIYJHPYVwMXlvtQg"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d633effe-4e45-4b36-8da4-a1e50dfd2170",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "d0be5309-e3b9-4490-bdf4-ff47fd46d69e",
+            "name": "User obteniendo todas las habitaciones (No deberia poder)",
+            "url": "https://localhost/api/rooms/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-17T13:25:04.599Z",
+            "modified": "2024-02-17T13:26:29.030Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODE3NTU4Nn0.s4CR4Mof7kbtF66NmObzprFWEl1iOcHsYYii5Wctlzk"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8b6dc7b5-6c62-4de4-91e8-c4402df3fbc5",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "8abef614-5c12-45bb-b50a-2cf6e166b78c",
+            "name": "User obtentiendo habitaciones (No deberia poder)",
+            "url": "https://localhost/api/rooms/type/{type}",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-17T13:25:04.615Z",
+            "modified": "2024-02-17T13:27:47.433Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODE3NTU4Nn0.s4CR4Mof7kbtF66NmObzprFWEl1iOcHsYYii5Wctlzk"
+                }
+            ],
+            "params": [
+                {
+                    "name": "type",
+                    "value": "Individual",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "318698e0-48f1-40f3-a436-0f51cf4d9584",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "71dee54c-c6a3-4bbe-a30e-13a82b4321b3",
+            "name": "User obtentiendo una habitacion por numero hab. (No deberia poder)",
+            "url": "https://localhost/api/rooms/room/{room_number}",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-17T13:25:04.623Z",
+            "modified": "2024-02-17T13:27:54.128Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODE3NTU4Nn0.s4CR4Mof7kbtF66NmObzprFWEl1iOcHsYYii5Wctlzk"
+                }
+            ],
+            "params": [
+                {
+                    "name": "room_number",
+                    "value": "101sd",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "f766ea04-51ab-4f62-9e9c-df32e4faa569",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "4d2ac5e5-9ffc-4fa9-af34-863494a77d9b",
+            "name": "User viendo sus reservas",
+            "url": "https://localhost/api/reservations/correo1@example.com",
+            "method": "GET",
+            "sortNum": 35000,
+            "created": "2024-02-10T14:10:58.087Z",
+            "modified": "2024-02-17T11:43:41.912Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODE3MDEyOX0.2vH3RJ4N52b4vHC19zF2AouuWasLIYJHPYVwMXlvtQg"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "28a100e9-025d-451a-be2f-b50e07c221b3",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "4d2ac5e5-9ffc-4fa9-af34-863494a77d9b",
+            "name": "User viendolas reservas de otro user (No deberia poder)",
+            "url": "https://localhost/api/reservations/correo2@example.com",
+            "method": "GET",
+            "sortNum": 45000,
+            "created": "2024-02-10T14:10:58.087Z",
+            "modified": "2024-02-17T11:43:49.605Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODE3MDEyOX0.2vH3RJ4N52b4vHC19zF2AouuWasLIYJHPYVwMXlvtQg"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "518bfaa7-2d07-4687-a152-496200421fd4",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "882d11a8-6a63-4d41-a51b-f5e08013e95c",
+            "name": "Admin obtentiendo habitaciones unique",
+            "url": "https://localhost/api/rooms/unique-rooms",
+            "method": "GET",
+            "sortNum": 145000,
+            "created": "2024-02-17T13:25:04.607Z",
+            "modified": "2024-02-17T13:26:59.366Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1oQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODE3MDA4NH0.xZ4E_gjIv78GTB70-Rv_iYwJwxp1ATAVlIjdx0gKxJA"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "318320a6-4a1f-44e3-a8bf-10cf1c8e7224",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "882d11a8-6a63-4d41-a51b-f5e08013e95c",
+            "name": "User obtentiendo habitaciones unique (No deberia poder)",
+            "url": "https://localhost/api/rooms/unique-rooms",
+            "method": "GET",
+            "sortNum": 155000,
+            "created": "2024-02-17T13:25:04.607Z",
+            "modified": "2024-02-17T13:26:41.530Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODE3NTU4Nn0.s4CR4Mof7kbtF66NmObzprFWEl1iOcHsYYii5Wctlzk"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9b62b24d-703c-418b-8531-a65fa55969df",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "675148a8-c627-42d9-bcec-8c289ee2b1a6",
+            "name": "Admin añadiendo una habitacion (MAL APOSTA PARA VER errorHandler)",
+            "url": "https://localhost/api/rooms/",
+            "method": "POST",
+            "sortNum": 165000,
+            "created": "2024-02-17T13:25:04.631Z",
+            "modified": "2024-02-17T13:28:43.679Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1oQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODE3MDA4NH0.xZ4E_gjIv78GTB70-Rv_iYwJwxp1ATAVlIjdx0gKxJA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"room_number\": 1001,\n    \"type\": \"string\",\n    \"description\": \"string\",\n    \"images\": [\n      {\n        \"image\": \"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\"\n      },\n      {\n        \"image\": \"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\"\n      },\n      {\n        \"image\": \"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\"\n      }\n    ],\n    \"rate\": 0,\n    \"max_occupancy\": 0,\n    \"isAvailable\": true\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "500aa482-6360-4f3f-ba26-a94693b4174e",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "675148a8-c627-42d9-bcec-8c289ee2b1a6",
+            "name": "Admin añadiendo una habitacion BIEN",
+            "url": "https://localhost/api/rooms/",
+            "method": "POST",
+            "sortNum": 175000,
+            "created": "2024-02-17T13:25:04.631Z",
+            "modified": "2024-02-17T13:25:04.631Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1oQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODEwNDg4MCwiZXhwIjoxNzM5NjYyNDgwfQ.vLe5AxHvwQcHcjUGdQiso7W8nR2Lmsy9bQxPLv0D6iQ"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"room_number\": 1450,\n    \"type\": \"Estandar\",\n    \"description\": \"string\",\n    \"images\": [\n      {\n        \"image\": \"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\"\n      },\n      {\n        \"image\": \"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\"\n      },\n      {\n        \"image\": \"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\"\n      }\n    ],\n    \"price_per_night\": 0,\n    \"rate\": 2,\n    \"max_occupancy\": 2,\n    \"isAvailable\": true\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "46468b30-aea4-4d0f-9b8d-1da1debd693f",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "675148a8-c627-42d9-bcec-8c289ee2b1a6",
+            "name": "User añadiendo una habitacion BIEN (No deberia poder)",
+            "url": "https://localhost/api/rooms/",
+            "method": "POST",
+            "sortNum": 185000,
+            "created": "2024-02-17T13:25:04.631Z",
+            "modified": "2024-02-17T13:51:46.088Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODE3NTU4Nn0.s4CR4Mof7kbtF66NmObzprFWEl1iOcHsYYii5Wctlzk"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"room_number\": 1000,\n    \"type\": \"Estandar\",\n    \"description\": \"string\",\n    \"images\": [\n      {\n        \"image\": \"iVBORw0KGgoAAAANSUhEUgAAAKYAAACUCAMAAAAu5KLjAAAAZlBMVEX///8AAAB9fX2amprw8PBcXFy6urr7+/vFxcVycnKfn59YWFiBgYFkZGRhYWF6enrg4OA0NDSurq7n5+fLy8vT09MfHx+Hh4cmJiY5OTnZ2dmRkZEPDw9qamorKytOTk4XFxdCQkJ7L8FWAAAH+ElEQVR4nO2ci9aqLBCGsUjUDpJolh3M+7/JjaYGCjgppf+/vnfttVdfZT6NMDMMYwjZVrILmPUPtS2ychzn4s6NMSDv4VS647lJDCKp0+gYzQ2jVZw7gsJlGhSvHVlPb24khbLC6Wk1N1RX+NqHLLUsg9KtmpIblMzN1opoTFnpshSDZgcDJdd1EVM+eJopuQ9N5mYcNOUyDBqdIZSOU2QzQuoneF/pbAaNHnBKx9nOM0LZ5hPIuQz6mSlfyuMfQzL/c8hS158GJe80jpIb9HcjlOzGQnKd1j+i9G4TKLkuP/Gh4URKbtDr1yG941TIUsV3R2hvITFWt+CLlMkFgrBPIX5gS78EqVtIyCpncgKK9dFXfKhqTdZXXhmJgAZHbj94wkz5aIsI2R7y/sCyQSko+xXHm3GB1Mq3aVDYNTx2ClzsxyMUtpDwe1OXBKDj7JQZYSc7K2uFNB8+0nFslBkzUPabakxCIsjRkw1KQGuyo6FkAPKhE+u2FGTKgQLMFRKUphgUtJC4Da4cQIGh6yfAApnylkI+KoAMnXEGdSGmvAAzsgwy5UdUxdgd8LnPNdw3B98YoS7kKm0/Ws+CovxHBiVfyRuAPhT8eSBT+iMWXhSyujc5YfFLg5a341IwmEFTwGd7g1VVrv3o/AtDxtNjyKCwLNGdkHzBDGou4iSQjwgnZogYkhfe9EMfp8OHQ0e4ScSFWENn0KQAHLyysiqgkBGqrIqB1mRFJz9Yr3ZArTr1A1CUX/dsAgq6u+5hH9TeN51DGeSEnZoDqOiiKJ6DFkkv7XsHg9JE0T+DTKna2zk4hQdSrsCEZYpvg0JMmSsdxKF3LTXaqDB5WIbU9+oSBcTfajK2g7MFOVGyVWMiCskXKxfIhqNjrqueTcbkRho+/bkcboNZy01fmLCAiVg4yLnjZh+qUW8NGZuESTcbndVNmDzKDyGcKBqoaTyMjToiJuPT4aGrKpgwuT8cGqERMr9jb67piphe+X4xSglfcABzMG3ykWkEd2OjEZMV/ADBmpnQjzKEyd9hNNcZmb7D4DpPGpuJ74txaiMsa4YxB9ImpB2+kIxNnunk9TiowhW/jMd28gEwjfugJ6SLk700YxjzJVyFDVoG7DYrAmEaovxGEylPsCW4CpO7DlJ747x5EYiJmCYPDdR+E1rNkDG98gKQvJyY9UBrxioUk0d55dYT9zf9IAAvPciYTnkJYu46nlF9svvHmMqKfTkXSW90HsALCQnTc7b8f2k9daIfYypGYVGdgxadpzfjMLnnu15TefEQWMBsHAZpPvv5GI1JmKda3WzxSMx31Nm/vTeNUt9freNoNKZuhe+NxLy7YTm+L2lnnpDSObujMbFmdUFHYvqIYMaYmmQ8plljMA3632JOW7Kp9BXM4xqk48yYYM2JOaE480tMNwALvIn2Bcxv6A/Tpv4wbeoP06aWg+lF7ltRJ6NcDCYu5AAlv7oYzLhTt5JPtxjMbrVIjqOLwVx1MHfSq0vBJN1K0UZaASwFk3UonbNUNv8CJs7i5OPuoX5lWBqc1jGTe3E8nS9bXR+fRv2qm9QHbxtTqKJ8csMv6dfcHl/BzLyYvyMTK47lJGAJqEc8UfRNiSe0g1m3MFzkWzOajfz9cNuPaodHvBpWMHGza4sSMZagtmlgsOlF1T8kQk3DxJRijN7bSChTY5Y1OJZR7TfFqnJwLnjOKZh4XV7iLcPCZRbG2Am1NroiWj4+624LyhSUzlnYqZmASeq9kOi9P0OYUM+8vEvjLipeDzTNK+r9NGFwTsBsKtXpu2aNsYB5aL6H82CkeXKnOgPaP459nQXPOR6TNmcucJvdMDE0++1eXiHkP8pZT5USAsQYTMKyjBLkFc2Z6bFlEDDT1gGshb1aFxGasU97wEZguj6nOvsuwmGXIkZCn8YaN9shWbsx8nRR4p+di69xUfFqF6oaoj7GJG0la0/qJoZHGyJdETNq1g0n0qTmt7h15OpGx8hR3z/wKSYRtjpzXFuJNeM0EjFdVv8RtmyuEG6U3dy2MD1H0LaeR1Gzsx0hwU977NQ8Ww+KQPI8qh1QW5jyvvH65YvCxkNexb3juLbxOan9vy+7cZU5bWHKm4QnWoWdAtdG3oml4qTGzEm9P8SIVKFV/QTNdzCdwytux3X0CQXP88xqzLC+BG5nS0/VmWoLs9t0iqs97WtN4guD4kjrS+y+BmyBsbwUVwV4W5hJZ6edD8vb6XmuP2f/zjacC4tfD0hWTaWg8xWVfT+2MLsJbMFIzFVvT27euRt3V68Be6kPkeK9hsYeZvcnOyLyEquEMGMYl/8YK5/DXKj8DzM5DdL0ttjDRDi6pr0GodOxKPLt9nAPd0GM6Pq+3x/C9Bq4rufFldxmmt/8NNU18lvErFBNPai3ayH/Xan982HIOyxjgvo7NTLd82Qbs1dMgcvUJmQb09SfNiDTStqMGf4QMzelxNYxR/86hv9TzNHWNLYuLAfz+N8Ymz+dQsTAsSDMCX7zl5jUwLEgTGzgMOuswSzTqKo52yVVXmUFc/wU0vzGofs4cZVJ4rN80LklezTm2NzjqQ7ppHv/zV16eTQmAd3R1ZO2qbZ7O5q8UhqNidCo32nSbm90uxPlWDUB0w2ht9a9paxjATQB85f6w7SpP0ybAmMeZv091wCKeYF1uH5HwQaKuQT9YdqUsZzgDR//Ixmt2eu9mU3mu7/oOlzNrzDtpi3/AMB/gYV/UcloAAAAAElFTkSuQmCC\"\n      },\n      {\n        \"image\": \"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\"\n      },\n      {\n        \"image\": \"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\"\n      }\n    ],\n    \"price_per_night\": 0,\n    \"rate\": 2,\n    \"max_occupancy\": 2,\n    \"isAvailable\": true\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4d296644-cbaa-4a23-af99-57814fb2c8c3",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "7a14ca4d-b0d3-483d-8af3-686ea9a7ad2f",
+            "name": "Admin modificando una habitacion",
+            "url": "https://localhost/api/rooms/{room_number}",
+            "method": "PATCH",
+            "sortNum": 185000,
+            "created": "2024-02-17T13:25:04.641Z",
+            "modified": "2024-02-17T13:56:12.457Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1oQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODE3MDA4NH0.xZ4E_gjIv78GTB70-Rv_iYwJwxp1ATAVlIjdx0gKxJA"
+                }
+            ],
+            "params": [
+                {
+                    "name": "room_number",
+                    "value": "1000",
+                    "isPath": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"description\": \"mas larga\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "34f0cf2e-5c56-4b1c-be1c-aef9c277a0ec",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "7a14ca4d-b0d3-483d-8af3-686ea9a7ad2f",
+            "name": "User modificando una habitacion (No deberia poder)",
+            "url": "https://localhost/api/rooms/{room_number}",
+            "method": "PATCH",
+            "sortNum": 195000,
+            "created": "2024-02-17T13:25:04.641Z",
+            "modified": "2024-02-17T14:16:49.085Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODE3NTU4Nn0.s4CR4Mof7kbtF66NmObzprFWEl1iOcHsYYii5Wctlzk"
+                }
+            ],
+            "params": [
+                {
+                    "name": "room_number",
+                    "value": "1000",
+                    "isPath": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"description\": \"mas larga\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "108fa82c-1339-495d-b189-8adad0f791c9",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "6e4c8392-5079-4f2d-8da0-9282cf1558d4",
+            "name": "Admin elimina una Habitacion",
+            "url": "https://localhost/api/rooms/{room_number}",
+            "method": "DELETE",
+            "sortNum": 195000,
+            "created": "2024-02-17T13:25:04.650Z",
+            "modified": "2024-02-17T14:17:52.955Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1oQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODE3MDA4NH0.xZ4E_gjIv78GTB70-Rv_iYwJwxp1ATAVlIjdx0gKxJA"
+                }
+            ],
+            "params": [
+                {
+                    "name": "room_number",
+                    "value": "1450",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "956b6825-dcf5-4039-a489-288cb255e4f5",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "6e4c8392-5079-4f2d-8da0-9282cf1558d4",
+            "name": "User elimina una Habitacion (No deberia poder)",
+            "url": "https://localhost/api/rooms/{room_number}",
+            "method": "DELETE",
+            "sortNum": 205000,
+            "created": "2024-02-17T14:18:10.025Z",
+            "modified": "2024-02-17T14:18:41.854Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODE3NTU4Nn0.s4CR4Mof7kbtF66NmObzprFWEl1iOcHsYYii5Wctlzk"
+                }
+            ],
+            "params": [
+                {
+                    "name": "room_number",
+                    "value": "1450",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "c6780e9d-bcfd-4675-bd4b-06feb7a6be38",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "83b0eaf4-2068-43de-b4d8-92972e60acfa",
+            "name": "Admin eliminando una reserva por id",
+            "url": "https://localhost/api/reservations/{id}",
+            "method": "DELETE",
+            "sortNum": 295000,
+            "created": "2024-02-11T18:59:59.381Z",
+            "modified": "2024-02-17T13:15:46.716Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1oQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODE3MDA4NH0.xZ4E_gjIv78GTB70-Rv_iYwJwxp1ATAVlIjdx0gKxJA"
+                }
+            ],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "65d0b08c8f0d9fff60064829",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "9e6fd824-420e-4e81-870b-ccc069009260",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "83b0eaf4-2068-43de-b4d8-92972e60acfa",
+            "name": "User eliminando una reserva suya",
+            "url": "https://localhost/api/reservations/{id}",
+            "method": "DELETE",
+            "sortNum": 305000,
+            "created": "2024-02-11T19:04:12.999Z",
+            "modified": "2024-02-17T13:23:07.271Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODE3NTU4Nn0.s4CR4Mof7kbtF66NmObzprFWEl1iOcHsYYii5Wctlzk"
+                }
+            ],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "65d0b31d57499b0d908e5f0a",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "6f35899d-8522-4c56-ae6c-85efe324b56f",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "83b0eaf4-2068-43de-b4d8-92972e60acfa",
+            "name": "User eliminando una reserva de otro user (No deberia poder)",
+            "url": "https://localhost/api/reservations/{id}",
+            "method": "DELETE",
+            "sortNum": 315000,
+            "created": "2024-02-11T19:11:07.913Z",
+            "modified": "2024-02-17T13:24:46.391Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODE3NTU4Nn0.s4CR4Mof7kbtF66NmObzprFWEl1iOcHsYYii5Wctlzk"
+                }
+            ],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "65d0ad04a4fc5204743db07e",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "6d63e90e-58d2-4005-bffa-a79c3313f912",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "a64bb097-23b5-4562-9286-1d156ffab938",
+            "name": "Admin añadiendo una reserva",
+            "url": "https://localhost/api/reservations",
+            "method": "POST",
+            "sortNum": 315000,
+            "created": "2024-02-11T19:22:40.016Z",
+            "modified": "2024-02-17T13:01:19.188Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1oQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODE3MDA4NH0.xZ4E_gjIv78GTB70-Rv_iYwJwxp1ATAVlIjdx0gKxJA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"roomType\": \"Estandar\",\n  \"ocupation\": 2,\n  \"extras\": [\n    { \"name\": \"Gym\", \"value\": false },\n    { \"name\": \"Spa\", \"value\": false }\n  ],\n  \"user\": {\n    \"email\": \"correo1@example.com\",\n    \"role\": \"user\"\n  },\n  \"check_in_date\": \"2024-03-26T12:00:00Z\",\n  \"check_out_date\": \"2024-03-28T12:00:00Z\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f547153c-f4c0-4dd5-aaed-b996a8e02d4d",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "a64bb097-23b5-4562-9286-1d156ffab938",
+            "name": "User añadiendo una reserva",
+            "url": "https://localhost/api/reservations",
+            "method": "POST",
+            "sortNum": 325000,
+            "created": "2024-02-12T11:40:58.153Z",
+            "modified": "2024-02-17T11:54:51.771Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODE3MDQzMX0.ue6tZmHDpyKDWtvymmIwc_OLh9p8kJsWtgviFuJs7mY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"roomType\": \"Estandar\",\n  \"ocupation\": 2,\n  \"extras\": [\n    { \"name\": \"Gym\", \"value\": false },\n    { \"name\": \"WiFi\", \"value\": false },\n    { \"name\": \"Spa\", \"value\": false }\n  ],\n  \"user\": {\n    \"email\": \"correo1@example.com\",\n    \"role\": \"user\"\n  },\n  \"check_in_date\": \"2024-05-25T12:00:00Z\",\n  \"check_out_date\": \"2024-05-28T12:00:00Z\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "92933688-05af-4474-ae1d-dff0a6c432f0",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "598102ff-ebb6-4862-8d58-feb85cb79ebe",
+            "name": "Admin modificando una reserva",
+            "url": "https://localhost/api/reservations/{id}",
+            "method": "PATCH",
+            "sortNum": 335000,
+            "created": "2024-02-17T13:06:41.232Z",
+            "modified": "2024-02-17T13:12:30.133Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1oQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwODE3MDA4NH0.xZ4E_gjIv78GTB70-Rv_iYwJwxp1ATAVlIjdx0gKxJA"
+                }
+            ],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "65d0b08c8f0d9fff60064829",
+                    "isPath": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"roomType\": \"Estandar\",\n  \"ocupation\": 2,\n  \"extras\": [\n    { \"name\": \"Gym\", \"value\": false },\n    { \"name\": \"Spa\", \"value\": false }\n  ],\n  \"user\": {\n    \"email\": \"correo1@example.com\",\n    \"role\": \"user\"\n  },\n  \"check_in_date\": \"2024-03-18T12:00:00Z\",\n  \"check_out_date\": \"2024-03-24T12:00:00Z\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3d257880-2aac-412e-be75-bc10651bef26",
+            "colId": "00585b33-e909-4a62-8f9e-37cbbc08758f",
+            "containerId": "598102ff-ebb6-4862-8d58-feb85cb79ebe",
+            "name": "User modificando una reserva",
+            "url": "https://localhost/api/reservations/{id}",
+            "method": "PATCH",
+            "sortNum": 345000,
+            "created": "2024-02-17T13:12:43.870Z",
+            "modified": "2024-02-17T13:13:22.416Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzFAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTcwODE3NTU4Nn0.s4CR4Mof7kbtF66NmObzprFWEl1iOcHsYYii5Wctlzk"
+                }
+            ],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "65d0b08c8f0d9fff60064829",
+                    "isPath": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"roomType\": \"Estandar\",\n  \"ocupation\": 2,\n  \"extras\": [\n    { \"name\": \"Gym\", \"value\": false },\n    { \"name\": \"Spa\", \"value\": false }\n  ],\n  \"user\": {\n    \"email\": \"correo1@example.com\",\n    \"role\": \"user\"\n  },\n  \"check_in_date\": \"2024-03-18T12:00:00Z\",\n  \"check_out_date\": \"2024-03-24T12:00:00Z\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
